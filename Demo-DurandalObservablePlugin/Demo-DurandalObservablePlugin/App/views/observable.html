@@ -1,0 +1,31 @@
+﻿<div>
+   <h1>Using the observable plugin</h1>
+   
+   <hr/>
+
+   <h2>Color Object</h2>
+   <blockquote data-bind="text: color.name"></blockquote>
+   <button data-bind="click: changeColor">Change Color Object</button>
+    
+   <hr/>
+   
+   <h2>Message String</h2>   
+   <blockquote data-bind="text: message"></blockquote>
+   <button data-bind="click: changeMessage">Change Message</button>
+   
+   <hr/>
+
+   <h2>Vehicles</h2>
+   <button data-bind="click: addVehicle">Add Vehicle</button>
+   <ul data-bind="foreach: vehicles">
+      <li>
+         <h3 data-bind="text: name"></h3>
+         <h4>Cameras</h4>
+         <ul data-bind="foreach: cameras">
+            <li>
+               <h5> <span data-bind="text: cameraName"></span> <span data-bind="text: id"></span></h5>
+            </li>
+         </ul>
+      </li>
+   </ul>
+</div>

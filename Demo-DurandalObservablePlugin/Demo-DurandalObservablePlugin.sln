@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-DurandalObservablePlugin", "Demo-DurandalObservablePlugin\Demo-DurandalObservablePlugin.csproj", "{82A2D894-D01C-4A70-B12E-1C8DE138908D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82A2D894-D01C-4A70-B12E-1C8DE138908D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A2D894-D01C-4A70-B12E-1C8DE138908D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A2D894-D01C-4A70-B12E-1C8DE138908D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A2D894-D01C-4A70-B12E-1C8DE138908D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

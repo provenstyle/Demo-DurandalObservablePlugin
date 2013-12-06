@@ -1,0 +1,50 @@
+﻿<section>
+   <h2>Durandal Observable Plugin</h2>
+   <blockquote>
+      The observable plugin makes plain javascript objects observable!
+   </blockquote>
+   
+   <h3>Plugs in to the page life cycle</h3>
+   <p>Transforms all viewModels during the binding event.  The binding event occures right before the view and viewModel are bound.</p>   
+      
+   <h3>Can be used directly in your code</h3>
+   <dl>
+      <dt>convertObject</dt>
+      <dd>makes and entire javascript object observable</dd>
+
+      <dt>convertProperty</dt>
+      <dd>allows you to make a specific property on an object observable</dd>
+      <dd>allows you to add a new observable property to an object</dd>
+         
+      <dt>defineProperty</dt>
+      <dd>allows you to add computed functions to your observable</dd>
+   </dl>
+   
+   <h3>Contiues working after the objects have been transformed</h3>      
+   <ul>
+      <li>Any property being set on the viewModel will be made observable</li>
+      <li>Any item pushed to an array on the view will be made observable</li>
+   </ul>
+   
+   <h3>Transforms promises into observables</h3>
+   <ul>
+      <li>If the returned data from the promise is a single property it becomes an observable</li>
+      <li>If the returned data from the promise is an array it becomes an observable array</li>
+   </ul>
+
+   <h3>Makes these types observable</h3>
+   <ul>
+      <li>Strings</li>
+      <li>Arrays</li>
+   </ul>
+   
+   <h3>Ignores these types</h3>
+   <ul>
+      <li>Functions</li>
+   </ul>
+
+   <div class="alert alert-success">
+      For general documenation please visit <a href="http://durandaljs.com/documentation/api/#module/observable">the observable plugin documentation</a> on the official Durandal site and if you can't find 
+        answers to your questions there, join the <a href="https://groups.google.com/forum/?fromgroups#!forum/durandaljs">google group</a>.
+   </div>
+</section>
